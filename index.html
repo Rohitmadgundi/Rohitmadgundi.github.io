@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rohit Madgundi | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    h1, h2 { color: #38bdf8; }
+    a { color: #38bdf8; text-decoration: none; }
+    .container { max-width: 900px; margin: auto; }
+    section { margin-bottom: 3rem; animation: fadeInUp 1s ease forwards; opacity: 0; transform: translateY(40px); }
+    section:nth-child(1) { animation-delay: 0.2s; }
+    section:nth-child(2) { animation-delay: 0.4s; }
+    section:nth-child(3) { animation-delay: 0.6s; }
+    section:nth-child(4) { animation-delay: 0.8s; }
+    section:nth-child(5) { animation-delay: 1s; }
+    ul { margin-top: 0.5rem; padding-left: 1.5rem; }
+    li { margin-bottom: 0.5rem; }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .header { text-align: center; margin-bottom: 3rem; }
+    .header h1 { font-size: 2.5rem; }
+    .social a { margin-right: 1rem; }
+    footer { text-align: center; font-size: 0.875rem; color: #94a3b8; margin-top: 4rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Rohit Shivraj Madgundi</h1>
+      <p>Java Spring Boot Developer | Solapur, Maharashtra</p>
+      <p class="social">
+        <a href="mailto:rohitmadgundi@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/rohit-madgundi-476019148" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Rohitmadgundi/QuizApp" target="_blank">GitHub</a>
+      </p>
+    </div>
+
+    <section>
+      <h2>Skills</h2>
+      <p>Java (Collections, Streams, OOP, Exception Handling, Multithreading), Spring Boot, Spring MVC, Spring Security, Hibernate, SQL, Swagger, Docker, Jenkins, Git, Bitbucket, Postman, IntelliJ, Agile, JIRA</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <h3>Software Engineer, PTC (Jul 2023 – Present)</h3>
+      <ul>
+        <li>Developed scalable RESTful APIs to manage product order lifecycle, improving processing efficiency by 30%.</li>
+        <li>Integrated Swagger for API documentation and Spring Boot Actuator for monitoring.</li>
+        <li>Automated test suites with Jenkins & Bitbucket, detecting 95% of deployment issues early.</li>
+        <li>Implemented Azure Application Insights for real-time diagnostics.</li>
+      </ul>
+      <h3>Junior Developer, Vedam Labs (Aug 2019 – Sep 2020)</h3>
+      <ul>
+        <li>Built RESTful APIs for product listing and order workflows using Spring Boot and Hibernate.</li>
+        <li>Managed MySQL databases with complex queries ensuring relational integrity.</li>
+        <li>Designed secure backend modules using Spring Security.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <h3>Spring Boot Quiz App</h3>
+      <ul>
+        <li>Microservices: Quiz & Question Service with Spring Cloud Gateway & Eureka.</li>
+        <li>Used Spring Data JPA for database ops and Swagger for API documentation.</li>
+        <li><a href="https://github.com/Rohitmadgundi/QuizApp" target="_blank">View on GitHub</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>B.E. in Computer Engineering – 9.5 CGPA (SKNCOE, Pune, 2023)</li>
+        <li>Diploma in Computer Technology – 90.18% (Government Polytechnic, Solapur, 2019)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certificates</h2>
+      <ul>
+        <li><a href="https://www.sololearn.com/certificates/CT-K3FWB5YF" target="_blank">Core Java - Sololearn</a></li>
+        <li><a href="https://www.sololearn.com/certificates/CT-FSIWNECK" target="_blank">SQL - Sololearn</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/verify/THKES5ZY8YPF" target="_blank">Google Cloud Fundamentals - Coursera</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      &copy; 2025 Rohit Madgundi. Built with HTML & CSS.
+    </footer>
+  </div>
+</body>
+</html>
